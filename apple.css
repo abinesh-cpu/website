@@ -1,8 +1,16 @@
+body{
+    margin: 0px;
+}
+
 .navbar{
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    padding: 0px;
+    z-index: 1;
     display: flex;
     justify-content: center;
-    height: 35px;
-    background-color: rgba(29, 2, 2, 0.361);
+    background-color: rgba(29, 2, 2, 0.5);
     top: 0px;
 }
 .navbar a{
@@ -15,8 +23,10 @@
 .nav{
     height: 35px;
     width: 100%;
+    margin-top: 35px;
     background-color: dimgrey;
     align-items: center;
+    position: sticky;
 }
 p{
   align-items: center;
@@ -30,22 +40,51 @@ p{
 .main{
     height: 80vh;
     width: 100%;
-    background-color: blue;
-    background-image: url(images/iphone-16-event-14.13.43@2x.webp);
-    background-size: cover;
     
+}
+.text1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    color: aliceblue;
+}
+.text2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: aliceblue;
+}
+.button1{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 750px;
 }
 .main1{
     height: 80vh;
     width: 100%;
     margin-top: 4px;
-    background-color: rgb(255, 0, 0);
+    background-size: cover;
+}
+.img1{
+    margin-top: -180px;
+    margin-bottom: -100px;margin-top: -150px;
+}
+.img3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
 }
 .main2{
     height: 80vh;
     width: 100%;
     margin-top: 4px;
-    background-color: blue;
+    background-position: center;
+    margin-top: 100px;
 }
 .container{
     display: flex;
