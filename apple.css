@@ -1,7 +1,6 @@
 body{
     margin: 0px;
 }
-
 .navbar{
     height: 35px;
     width: 100%;
@@ -43,7 +42,6 @@ p{
     
 }
 .text1{
-    align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
@@ -51,30 +49,71 @@ p{
     color: aliceblue;
 }
 .text2{
-    align-items: center;
     display: flex;
     justify-content: center;
     position: relative;
     color: aliceblue;
 }
 .button1{
+    font-size: 40px;
     position: relative;
     justify-content: center;
-    align-items: center;
-    margin-left: 750px;
+    margin-top: -400px;
+    margin-left: 850px;
+}
+.button1 p{
+    margin-right: 500px;
+    color: azure;
+}
+.button2{
+    position: relative;
+    margin-top: -100px;
+    margin-left: 850px;
+}
+.button2 p{
+    margin-right: 500px;
+    color: black;
+}
+.button3{
+    position: relative;
+    margin-left: 300px;
+    justify-content: center;
+}
+.button4{
+    position: relative;
+    margin-left: 300px;
+    justify-content: center;
+}
+.button5{
+    position: relative;
+    margin-left: 300px;
+    justify-content: center;
+}
+.button6{
+    position: relative;
+    margin-left: 80px;
+}
+.button7{
+    position: relative;
+    justify-content: center;
 }
 .main1{
-    height: 80vh;
+    height: 40vh;
     width: 100%;
     margin-top: 4px;
     background-size: cover;
 }
 .img1{
     margin-top: -180px;
-    margin-bottom: -100px;margin-top: -150px;
+    margin-bottom: 200px;
+    margin-top: -150px;
 }
 .img3{
     align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img4{
     display: flex;
     justify-content: center;
     margin-top: 300px;
@@ -94,14 +133,15 @@ p{
 .event{
     height: 80vh;
     width: 49%;
-    background-color: blue;
     margin-top: 5px;
     margin-right: 5px;
+}
+.event1{
+    color: #000;
 }
 .watch_ultra{
     height: 80vh;
     width: 49%;
-    background-color: red;
     margin-top: 5px;
 }
 .container1{
@@ -112,14 +152,12 @@ p{
 .airpods_4{
     height: 80vh;
     width: 49%;
-    background-color: rgb(0, 255, 42);
     margin-top: 5px;
     margin-right: 5px;
 }
 .airpods_max{
     height: 80vh;
     width: 49%;
-    background-color: rgb(0, 4, 255);
     margin-top: 5px;
 }
 .container2{
@@ -130,7 +168,6 @@ p{
 .macbook_air{
     height: 80vh;
     width: 49%;
-    background-color: rgb(255, 136, 0);
     margin-top: 5px;
     margin-right: 5px;
 }
@@ -144,13 +181,89 @@ p{
     display : flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 50%;
     background-color:rgb(233, 215, 215);
   }
   .para div{
     background-color: rgb(233, 215, 215);
-    width: 1000px;
-    height: 100%;
+    width: 100%;
+    height: 80%;
   }
-  
+  .macbook{
+    width: 100%;
+    margin-top: 100px;
+  }
+  .text3{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+.air_max{
+    display: flex;
+    justify-content: center;
+}
+.text5{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.text6{
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+.text7{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.text8{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.text9{
+    display: flex;
+    margin-top: -300px;
+    margin-left: 40px;
+}
+.text10{
+    display: inline-flexbox;
+    justify-content: center;
+    color: black;
 
+}
+.airpod{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -250px;
+}
+
+
+button {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #060c08;
+    transform: scale(1.05);
+}
+
+
+
+.button1 button, .button2 button, .button3 button, 
+.button4 button, .button5 button, .button6 button, .button7{
+    margin: 0 10px;
+}
